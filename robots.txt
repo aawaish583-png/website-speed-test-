@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://aawaish583-png.github.io/website-speed-test-/sitemap.xml
+
