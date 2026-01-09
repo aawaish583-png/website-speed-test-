@@ -1176,37 +1176,29 @@
             }
         }
 
-        /* === Accessibility Contrast Fix === */
+        /* === FINAL Accessibility Contrast Fix (content-card only) === */
 
-body {
-  color: #E5E7EB;
-  background-color: #0B1220;
+.content-card {
+  background-color: #111827;
 }
 
-p {
-  color: #D1D5DB;
-}
-
-h1, h2, h3, h4, h5, h6 {
+.content-card h2 {
   color: #F9FAFB;
 }
 
-a {
-  color: #60A5FA;
-}
-
-.card,
-.feature-card,
-.tool-card {
-  background-color: #111827;
+.content-card p {
   color: #E5E7EB;
 }
 
-.text-muted,
-.small-text {
-  color: #9CA3AF;
+.content-card strong {
+  color: #FFFFFF;
 }
 
+.content-card span,
+.content-card li {
+  color: #E5E7EB;
+}
+        
         /* ===== UTILITY CLASSES ===== */
         .text-center { text-align: center; }
         .mt-1 { margin-top: 0.25rem; }
