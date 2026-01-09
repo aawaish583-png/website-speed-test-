@@ -1176,17 +1176,14 @@
             }
         }
 
-        /* === FINAL Accessibility Contrast Fix (content-card only) === */
+/* ===== FINAL COMPLETE ACCESSIBILITY CONTRAST FIX ===== */
 
-.content-card {
-  background-color: #111827;
-}
-
-.content-card h2 {
+.content-card h3 {
   color: #F9FAFB;
 }
 
-.content-card p {
+.content-card p,
+.content-card li {
   color: #E5E7EB;
 }
 
@@ -1194,8 +1191,17 @@
   color: #FFFFFF;
 }
 
-.content-card span,
-.content-card li {
+[style*="--bg-secondary"] {
+  color: #E5E7EB;
+}
+
+[style*="--bg-secondary"] h3,
+[style*="--bg-secondary"] h4 {
+  color: #F9FAFB;
+}
+
+[style*="--bg-secondary"] p,
+[style*="--bg-secondary"] li {
   color: #E5E7EB;
 }
         
